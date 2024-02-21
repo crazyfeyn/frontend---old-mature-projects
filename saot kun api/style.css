@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000;
+}
+#canvas {
+    background-color: red;
+    border-radius: 50%;
+    -webkit-box-shadow: 17px -11px 12px -4px rgba(255, 255, 255, 0.2);
+    -moz-box-shadow: 17px -11px 12px -4px rgba(255, 255, 255, 0.2);
+    box-shadow: 17px -11px 12px -4px rgba(255, 255, 255, 0.2);
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    height: 100vh;
+}
