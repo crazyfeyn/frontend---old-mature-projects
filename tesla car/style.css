@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1349px;
+    margin: 0 auto;
+    width: 100%;
+}
+body{
+    max-width: 1349px;
+    margin: 0 auto;
+}
+#read{
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--tds-text--color);
+    font-family: var(--tds-font-family--combined);
+    border: 0;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+.a{
+    border: 0.2px #000 groove;
+    text-align: center;
+    width: 217px;
+    margin-bottom: 8px;
+    margin-left: 567px;
+    margin-top: 2px;
+}
+#pread{
+    margin-top: 8px;
+    position: relative;
+    text-align: center;
+}
+.tesla1{
+    background-image: url(1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    padding-top: 15px;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+}
+#logo{
+    font-weight: 550;
+    font-size: 20px;
+    height: 30px;
+    padding: 4px;
+    cursor: pointer;
+}
+.model p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+    font-weight: 500;
+    font-size: 18px;
+    border: hidden;
+    height: 30px;
+    padding: 4px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.model p:hover{
+    background-color: #9999;
+}
+.about p{
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #333;
+    font-weight: 500;
+    font-size: 18px;
+    border: hidden;
+    border-radius: 12px;
+    height: 30px;
+    padding: 4px;
+}
+.about p:hover{
+    background-color: #9999;
+}
+.model{
+    width: 900xp;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+}
+.about{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+}
+#logo{
+    width: 117px;
+}
+#firstModel{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 30px;
+}
+#order{
+    color: #333;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#order a{
+    color: #333;
+    text-decoration: underline;
+}
+.custom{
+    padding: 10px;
+    cursor: pointer;
+    border: 1px black solid;
+    background-color: #999;
+    width: 280px;
+    text-align: center;
+    border-radius: 27px;
+    transition: 0.4s;
+}
+.custom p{
+    font-size: 14px;
+    font-weight: 550;
+    color: #fff;
+}
+.existing{
+    cursor: pointer;
+    padding: 10px;
+    border: 1px black solid;
+    background: #fff;
+    width: 280px;
+    text-align: center;
+    border-radius: 27px;
+    transition: 0.4s;
+}
+.custom:hover{
+    background-color: #fff;
+    color: #000;
+    font-weight: 550;
+}
+.existing:hover{
+    background-color: #f60;
+   color: #fff;
+   font-weight: 550;
+}
+.existing p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+.bottomFlex{
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 280px;
+}
+.tesla2{
+    background-image: url(y.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1367px;
+    height: 700px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+.tesla3{
+    background-image: url(i3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+.tesla4{
+    background-image: url(i2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 700px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+.bottomFlex{
+    position: fixed;
+}
+.first{
+    position: fixed;
+    width: 1367px;
+}
+#firstModel{
+    margin-top: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bottomFlex{
+    width: 1367px;
+}
+.bottomFlex a{
+    color: #333;
+}
