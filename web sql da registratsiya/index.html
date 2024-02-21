@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="main">
+    <nav>
+        <p id="gog"><span id="g">G</span> <span id="o">o</span> <span id="o2">o</span> <span id="g">g</span> <span>g</span> <span id="l">l</span> <span id="e">e</span></p>
+        <div class="two">
+           <a href="#">Dom</a>
+           <a href="second.html">main</a>
+        </div>
+
+    </nav>
+
+
+
+    <div class="container">
+     <form>
+        <p id="reg">Registration</p>
+        <p>your name</p>
+        <input type="text" placeholder="G'olib" id="name">
+        <p>your surname</p>
+        <input type="text" placeholder="Toramurodov" id="surname">
+        <p>Tel</p>
+        <input type="number" placeholder="+98923489" id="number">
+        <p>Email</p>
+        <input type="text" placeholder="golib@gmail.com" id="email">
+        <select class="select">
+            <option value="@ejfdhjf">@ejfdhjf</option>
+            <option value="@efgfg">@efgfg</option>
+            <option value="@fdg">@fdg</option>
+            <option value="@dfgg">@dfgg</option>
+        </select> <br>
+        <button type="reset">reset</button>
+        <button type="submit"  onclick="send()">send</button>
+        </div>
+     </form>
+   </div>
+
+
+  <script>
+    function send(){
+        let name = document.getElementById("name").value
+        localStorage.setItem("name", name)
+
+        let surname = document.getElementById("surname").value
+        localStorage.setItem("surname", surname)
+
+        let number = document.getElementById("number").value
+        localStorage.setItem("number", number)
+
+        let email = document.getElementById("email").value
+        localStorage.setItem("email", email)
+
+        // let list = document.getElementById("list").value
+        // localStorage.setItem("list", list)
+
+        let select = document.getElementsByClassName("select").value
+        localStorage.setItem("select", select)
+    }
+  </script>
+</body>
+</html>

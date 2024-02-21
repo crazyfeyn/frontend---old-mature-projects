@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="second.css">
+</head>
+<body>
+
+    <nav>
+        <p id="gog"><span id="g">G</span> <span id="o">o</span> <span id="o2">o</span> <span id="g">g</span> <span>g</span> <span id="l">l</span> <span id="e">e</span></p>
+        <div class="two">
+           <a href="#">Dom</a>
+           <a href="second.html">main</a>
+        </div>
+
+    </nav>
+
+    <table>
+        <thead>
+            <th >Name</th>
+            <th>Surname</th>
+            <th>Tel</th>
+            <th>E-mail</th>
+            <th>Select</th>
+        </thead>
+        <tbody>
+            <td id="name"></td>
+            <td id="surname"></td>
+            <td id="number"></td>
+            <td id="email"></td>
+            <td id="select"></td>
+        </tbody>
+    </table>
+
+    <script>
+        document.getElementById("name").innerHTML = localStorage.getItem("name")
+        document.getElementById("surname").innerHTML = localStorage.getItem("surname")
+        document.getElementById("number").innerHTML = localStorage.getItem("number")
+        document.getElementById("email").innerHTML = localStorage.getItem("email")
+        document.getElementById("select").innerHTML = localStorage.getItem("select")
+    </script>
+</body>
+</html>

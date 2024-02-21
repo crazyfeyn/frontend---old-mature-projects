@@ -1,0 +1,97 @@
+*
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-image: url(img1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    border: 1px black solid;
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+button{
+    margin-top: 10px;
+    padding: 5px;
+    width: 100px;
+    background-color: #f60;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+#reg{
+    font-size: 22px;
+    font-weight: 550;
+    color: red ;
+}
+p{
+    font-size: 18px;
+    font-weight: 550;
+    color: gold;
+}
+input{
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: 4px 4px 4px gold;
+}
+.container{
+    box-shadow: 5px 5px 5px #555;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 3px #0f0 inset,
+    5px 5px 10px #00f,
+    -5px -5px 10px rgb(255, 0, 0);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.main{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.two{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+#gog{
+    font-size: 25px;
+    font-weight: 650;
+}
+#g{
+    color: blue;
+}
+#o{
+    color: red;
+}
+#o2{
+    color: gold;
+}
+#g{
+    color: blue;
+}
+#l{
+    color: green;
+}
+#e{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+input[type = "number"]::-webkit-outer-spin-button,
+input[type = "number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
